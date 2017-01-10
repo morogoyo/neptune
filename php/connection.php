@@ -3,7 +3,7 @@
 define( "HOST", "192.168.22.4");
 define( "USERNAME", "felix");
 define( "DATABASE", "data_temp");
-define( "PASSWORD", "Frt011290");
+define( "PASSWORD", "*");
 global $con;
 $con = new mysqli(HOST,USERNAME,PASSWORD,DATABASE);
 if (!$con){
